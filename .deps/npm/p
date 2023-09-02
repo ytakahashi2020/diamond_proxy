@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using UglifyJS v3.4.2.
+ * Original file: /npm/p@0.2.0/pattern.js
+ * 
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+!function(n){var e="undefined"!=typeof process&&process.env.DEBUG;function c(){e&&console.log.apply(this,arguments)}function t(){var r,f=[];return function(){if(r||(r=arguments.length-1),r===arguments.length){var n=0,e=0;n:for(;e<arguments.length;e++)for(;n<f.length;n++){var t=f[n];if(c("α ",e,n),c("  ░ ",t,t[e]),c("  σ ",t.length),c("  • ",[].slice.call(arguments,0)),t.length>e)if(l=t[e],o=arguments[e],l===Error?o&&-1!==o.name.indexOf("Error"):void 0===l||("object"==typeof l?JSON.stringify(l)===JSON.stringify(o):l.toString()===o.toString())){if(c("  ✔ ",t[e],"===",arguments[e]),arguments.length!==e+1){c("  ⥁");continue n}}else if(c("  ✗ ",t[e],"===",arguments[e]),e=0,f.length!==n+1){c("  ⥁");continue}var i=t[t.length-1];return c("  "+("function"==typeof i?"ƒ":"λ"),i.name||i),"function"==typeof i?i.apply(this,[].slice.call(arguments,0)):null}}else f.push([].slice.call(arguments,0)),c("‣ ",[].slice.call(arguments,0));var l,o}}"undefined"==typeof exports?window.pattern=t:module.exports=t}();
+//# sourceMappingURL=/sm/c12ca92b549640516b3fb6c9bc8999319f2622e8a4094724454b4eb5ac097c40.map
