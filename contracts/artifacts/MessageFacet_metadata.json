@@ -4,7 +4,47 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "MessageSet",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_msg",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/MessageFacet.sol": {
-			"keccak256": "0x4a40e3a1be3fd57b271b0b756daabe5c5b4ef642ac68dba0df98cba8cf2faf3f",
-			"license": "Unlicensed",
+			"keccak256": "0xe85aa2b93ff81fce09d425f9a7a1912c5111d03fd066ca24ca6360d60e31e63a",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://9326381e6252d01687b0b2d79d8b06398533a3cf3fa4bae1feea33a52d3a6bef",
-				"dweb:/ipfs/QmQtYioqrbCpEnNfyig9PdDM9FcKCw3YHv1W9X3P8umJx5"
+				"bzz-raw://1ddcafa0736a7f352c9947c30d2555993c3ae80c254a2e461168f6f33ba2beef",
+				"dweb:/ipfs/QmaYiaGqYhK2USq3ooVo3cUpL372iEKUhfBbxijbUZV3RT"
 			]
 		}
 	},
